@@ -1,0 +1,26 @@
+.container {
+  max-width: 1920px;
+}
+
+.start-image {
+  background-image: url("../../public/images/background1.jpg");
+}
+
+.start-content {
+  font-family: "Poppins", sans-serif;
+}
+
+.editor h1 {
+}
+
+.custom-button {
+  transition: background-color 0.3s ease;
+}
+
+.custom-button .arrow {
+  transition: transform 0.3s ease;
+}
+
+.custom-button:hover .arrow {
+  transform: translateX(4px);
+}
