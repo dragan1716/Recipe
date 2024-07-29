@@ -25,7 +25,7 @@ const Start = () => {
             Let's <br /> Cooking
           </h1>
           <p className="mt-10 lg:text-3xl">Find the best recipes for cooking</p>
-          <Link to="/signup">
+          <Link to="/login">
             <button className="custom-button rounded-xl mt-8 font-medium text-md  cursor-pointer justify-center items-center inline-flex py-3 px-6 bg-red-500 hover:bg-red-700">
               Start Cooking{" "}
               <span className="arrow ml-2 text-3xl">
