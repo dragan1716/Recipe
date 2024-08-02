@@ -28,10 +28,12 @@ const Category = () => {
     setSelectedCategory(category);
   };
 
+  console.log(cuisine, params);
+
   return (
     <div className="mt-10 ">
       <h1 className="text-xl md:text-2xl font-bold">Popular Category</h1>
-      <ul>
+      <ul onClick={handleCategoryClick}>
         <li>American</li>
         <li>Italian</li>
         <li>Thai</li>
