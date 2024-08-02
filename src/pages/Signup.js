@@ -37,6 +37,8 @@ const Signup = () => {
   const debouncedEmail = useDebouncedValue(email, 500);
   const debouncedPassword = useDebouncedValue(password, 500);
 
+  console.log(isSubmitting);
+
   useEffect(() => {
     const newErrors = {};
     if (touched.firstName && debouncedFirstName.trim().length === 0) {
