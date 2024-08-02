@@ -12,6 +12,7 @@ const Login = () => {
   const [successMessage, setSuccessMessage] = useState(null);
 
   const { user, logIn } = UserAuth();
+  console.log(user);
   const navigate = useNavigate();
 
   const handleEmail = (e) => {
